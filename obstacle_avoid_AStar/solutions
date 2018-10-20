@@ -1,0 +1,65 @@
+running simple dataset
+start point - 0 0
+end point - 9 6
+number of obstacles - 2
+obstacle locations: 
+0 0 4 0 4 4 0 4
+7 4 9 6 4 10 2 8
+
+printing top solution
+Point           Cumulive Cost
+[0.0, 0.0]      0
+[4.0, 0.0]      4
+[9.0, 6.0]      11.8102
+
+
+running difficult dataset
+start point - 0 0
+end point - 25 35
+number of obstacles - 10
+obstacle locations: 
+0 0 5 0 5 5 0 5
+6 2 8 2 8 25 6 25
+10 10 12 10 12 12 10 12
+15 0 20 5 15 10 10 5
+10 15 15 13 17 18 12 20
+24 4 26 6 21 11 19 9
+28 7 30 9 22 17 20 15
+26 19 31 24 30 25 25 20
+20 20 25 25 15 35 10 30
+22 33 25 33 25 35 22 35
+
+printing top solution
+Point           Cumulive Cost
+[0.0, 0.0]      0
+[5.0, 0.0]      5
+[8.0, 2.0]      8.60555
+[10.0, 5.0]      12.2111
+[20.0, 20.0]      30.2389
+[25.0, 25.0]      37.3099
+[25.0, 35.0]      47.3099
+
+
+running customized dataset
+start point - 20 3
+end point - 5 40
+number of obstacles - 7
+obstacle locations: 
+0 0 5 0 10 15 3 12
+10 3 15 3 15 15 10 10
+20 3 30 3 27 15 16 17
+0.5 15 5 15 4 18 0.5 18
+0 20 5 40 7 30 4 20
+10 18 20 18 17 32 12 32
+6 16 9 16 9 25 6 25
+
+printing top solution
+Point           Cumulive Cost
+[20.0, 3.0]      0
+[15.0, 15.0]      13
+[10.0, 15.0]      18
+[10.0, 18.0]      21
+[12.0, 32.0]      35.1421
+[5.0, 40.0]      45.7723
+
+
